@@ -7,6 +7,32 @@
 
 > In this investigation of the Ford GoBike System, I wanted to look at trip distribution and the most common user behaviors and characteristics, specifically how user type, time, gender, and age impacts usage of the system.
 
+## Project Requirement:
+
+> we will need an installation of Python, plus the following libraries::
+
+* pandas
+* NumPy
+* Matplotlib
+* seaborn
+
+## The files included are:
+```sh
+* exploration.ipynb : jupyter notebook for data exploration
+* exploration.html : html file for data exploration
+* 201902-fordgobike-tripdata.csv : csv file contains dataset
+* slide_deck.ipynb : jupyter notebook for  explanatory analysis
+* slide_deck.slides.html : slide deck presentation of explanatory analysis in HTML format
+* output_toggle.tpl : templete used to hide code cells from nbconvert
+```
+
+## How to view Slide Deck
+
+> Use the following expression on the command line to open up the slide deck for viewing :
+
+```sh
+jupyter nbconvert slide_deck.ipynb --to slides --no-input --no-prompt  --post serve
+```
 
 ## Summary of Findings
 
